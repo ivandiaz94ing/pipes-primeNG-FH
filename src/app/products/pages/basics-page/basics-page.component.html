@@ -24,4 +24,43 @@
     </p-card>
   </div>
 
+  <div class="  col-12 md:col-6">
+    <p-card header="DatePipe">
+
+      <ol>
+        <li> fecha | date </li>
+        <li> fecha | date : 'short' </li>
+        <li> fecha | date : 'long' </li>
+        <li> fecha | date : 'MMMM' </li>
+      </ol>
+      <hr>
+
+      <ol>
+        <li> fecha | date : 'MMMM   dd, yyyy' </li>
+        <li> fecha | date : 'long' : 'GMT-8' </li>
+        <li> fecha | date : 'long' : 'Defecto': 'es-CO' </li>
+        <li> fecha | date : 'long' : 'Defecto': 'fr-CA' </li>
+      </ol>
+    </p-card>
+  </div>
+  <div class="  col-12 md:col-6">
+    <p-card header="DatePipe">
+
+      <ol>
+        <li> {{customDate | date }} </li>
+        <li> {{customDate | date : 'short' }} </li>
+        <li> {{customDate | date : 'long' }} </li>
+        <li> {{customDate | date : 'MMMM' }} </li>
+      </ol>
+      <hr>
+
+      <ol>
+        <li> {{customDate | date : 'MMMM dd, yyyy' }} </li>
+        <li> {{customDate | date : 'long' : 'GMT-8'}} </li>
+        <li> {{customDate | date : 'long' : 'Defecto': 'es-CO'}} </li>
+        <li> {{customDate | date : 'long' : 'Defecto': 'fr-CA'}} </li>
+      </ol>
+    </p-card>
+  </div>
+
 </div>
