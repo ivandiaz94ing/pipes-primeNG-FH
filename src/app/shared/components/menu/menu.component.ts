@@ -42,13 +42,9 @@ export class MenuComponent {
                 icon: 'pi pi-cog',
                 items: [
                     {
-                      label: 'Delete',
-                      icon: 'pi pi-fw pi-trash'
-                    },
-
-                    {
-                      label: 'Refresh',
-                      icon: 'pi pi-fw pi-refresh'
+                      label: 'Custom Pipes',
+                      icon: 'pi pi-cog',
+                      routerLink: 'custom'
                     }
                 ]
             }
